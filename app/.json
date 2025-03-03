@@ -1,0 +1,331 @@
+[
+  {
+    "awayScore": 6,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 5,
+      "players": [
+        {
+          "kills": 4,
+          "username": "Speel"
+        },
+        {
+          "kills": 0,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 7,
+          "username": "Victusic"
+        }
+      ],
+      "points": 15,
+      "total_kills": 11
+    },
+    "homeScore": 0,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 2,
+      "players": [
+        {
+          "kills": 6,
+          "username": "Speel"
+        },
+        {
+          "kills": 5,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 9,
+          "username": "Victusic"
+        }
+      ],
+      "points": 47,
+      "total_kills": 20
+    },
+    "status": "Finished",
+    "time": "2024-12-12T21:00:00Z",
+    "title": "Cool Match 1"
+  },
+  {
+    "awayScore": 4,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 7,
+      "players": [
+        {
+          "kills": 6,
+          "username": "Speel"
+        },
+        {
+          "kills": 8,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 9,
+          "username": "Victusic"
+        }
+      ],
+      "points": 17,
+      "total_kills": 23
+    },
+    "homeScore": 8,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 6,
+      "players": [
+        {
+          "kills": 3,
+          "username": "Speel"
+        },
+        {
+          "kills": 8,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 9,
+          "username": "Victusic"
+        }
+      ],
+      "points": 4,
+      "total_kills": 20
+    },
+    "status": "Finished",
+    "time": "2024-12-15T21:00:00Z",
+    "title": "Cool Match 2"
+  },
+  {
+    "awayScore": 6,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 1,
+      "players": [
+        {
+          "kills": 1,
+          "username": "Speel"
+        },
+        {
+          "kills": 0,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 5,
+          "username": "Victusic"
+        }
+      ],
+      "points": 20,
+      "total_kills": 6
+    },
+    "homeScore": 9,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 4,
+      "players": [
+        {
+          "kills": 2,
+          "username": "Speel"
+        },
+        {
+          "kills": 0,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 3,
+          "username": "Victusic"
+        }
+      ],
+      "points": 23,
+      "total_kills": 5
+    },
+    "status": "Finished",
+    "time": "2024-12-17T21:00:00Z",
+    "title": "Cool Match 3"
+  },
+  {
+    "awayScore": 0,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 6,
+      "players": [
+        {
+          "kills": 8,
+          "username": "Speel"
+        },
+        {
+          "kills": 0,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 1,
+          "username": "Victusic"
+        }
+      ],
+      "points": 21,
+      "total_kills": 9
+    },
+    "homeScore": 6,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 5,
+      "players": [
+        {
+          "kills": 0,
+          "username": "Speel"
+        },
+        {
+          "kills": 9,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 1,
+          "username": "Victusic"
+        }
+      ],
+      "points": 3,
+      "total_kills": 10
+    },
+    "status": "Finished",
+    "time": "2024-12-19T21:00:00Z",
+    "title": "Cool Match 4"
+  },
+  {
+    "awayScore": 6,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 5,
+      "players": [
+        {
+          "kills": 4,
+          "username": "Speel"
+        },
+        {
+          "kills": 2,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 4,
+          "username": "Victusic"
+        }
+      ],
+      "points": 13,
+      "total_kills": 10
+    },
+    "homeScore": 10,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 8,
+      "players": [
+        {
+          "kills": 9,
+          "username": "Speel"
+        },
+        {
+          "kills": 3,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 7,
+          "username": "Victusic"
+        }
+      ],
+      "points": 24,
+      "total_kills": 19
+    },
+    "status": "Ongoing",
+    "time": "2024-12-21T21:00:00Z",
+    "title": "Cool Match 5"
+  },
+  {
+    "awayScore": 5,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 7,
+      "players": [
+        {
+          "kills": 4,
+          "username": "Speel"
+        },
+        {
+          "kills": 1,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 8,
+          "username": "Victusic"
+        }
+      ],
+      "points": 47,
+      "total_kills": 13
+    },
+    "homeScore": 4,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 1,
+      "players": [
+        {
+          "kills": 5,
+          "username": "Speel"
+        },
+        {
+          "kills": 4,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 7,
+          "username": "Victusic"
+        }
+      ],
+      "points": 5,
+      "total_kills": 16
+    },
+    "status": "Ongoing",
+    "time": "2024-12-26T21:00:00Z",
+    "title": "Cool Match 6"
+  },
+  {
+    "awayScore": 1,
+    "awayTeam": {
+      "name": "Cool Team 1",
+      "place": 4,
+      "players": [
+        {
+          "kills": 3,
+          "username": "Speel"
+        },
+        {
+          "kills": 6,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 7,
+          "username": "Victusic"
+        }
+      ],
+      "points": 44,
+      "total_kills": 16
+    },
+    "homeScore": 10,
+    "homeTeam": {
+      "name": "Cool Team 2",
+      "place": 8,
+      "players": [
+        {
+          "kills": 6,
+          "username": "Speel"
+        },
+        {
+          "kills": 8,
+          "username": "CeskyPane"
+        },
+        {
+          "kills": 5,
+          "username": "Victusic"
+        }
+      ],
+      "points": 4,
+      "total_kills": 19
+    },
+    "status": "Scheduled",
+    "time": "2024-12-31T21:00:00Z",
+    "title": "Cool Match 7"
+  }
+]
