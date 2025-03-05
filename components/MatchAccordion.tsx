@@ -197,7 +197,6 @@ function MatchAccordion({ initialMatches = [] }: { initialMatches?: Match[] }) {
             value={`item-${index}`}
             className="border rounded-md mb-4"
           >
-            {/* Rest of the existing accordion item code remains the same */}
             <AccordionTrigger className="p-4 hover:no-underline">
               <div className="w-full grid grid-cols-3 gap-2 items-center">
                 {/* Left Team */}
@@ -234,9 +233,55 @@ function MatchAccordion({ initialMatches = [] }: { initialMatches?: Match[] }) {
               </div>
             </AccordionTrigger>
 
-            {/* Existing AccordionContent */}
             <AccordionContent className="p-4">
-              {/* ... existing content ... */}
+              <div className="grid md:grid-cols-2 gap-4">
+                {/* Away Team Details */}
+                <div>
+                  <h3 className="text-lg font-bold mb-2">
+                    {match.awayTeam.name} Details
+                  </h3>
+                  <Separator className="mb-2" />
+                  <div className="space-y-2">
+                    <p>Rank: {match.awayTeam.place}</p>
+                    <p>Total Kills: {match.awayTeam.total_kills}</p>
+                    <h4 className="font-semibold mt-2">Players:</h4>
+                    <ul className="pl-4 list-disc">
+                      {match.awayTeam.players.map((player, idx) => (
+                        <li key={idx}>
+                          {player.username} - Kills: {player.kills}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Home Team Details */}
+                <div>
+                  <h3 className="text-lg font-bold mb-2">
+                    {match.homeTeam.name} Details
+                  </h3>
+                  <Separator className="mb-2" />
+                  <div className="space-y-2">
+                    <p>Rank: {match.homeTeam.place}</p>
+                    <p>Total Kills: {match.homeTeam.total_kills}</p>
+                    <h4 className="font-semibold mt-2">Players:</h4>
+                    <ul className="pl-4 list-disc">
+                      {match.homeTeam.players.map((player, idx) => (
+                        <li key={idx}>
+                          {player.username} - Kills: {player.kills}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-4 text-center">
+                <p className="text-sm text-gray-500">
+                  Match Title: {match.title}
+                  <br />
+                  Date: {formatDate(match.time)}
+                </p>
+              </div>
             </AccordionContent>
           </AccordionItem>
         ))}
